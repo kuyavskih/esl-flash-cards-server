@@ -1,0 +1,27 @@
+{
+  "name": "esl-flash-cards-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuyavskih/esl-flash-cards-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuyavskih/esl-flash-cards-server/issues"
+  },
+  "homepage": "https://github.com/kuyavskih/esl-flash-cards-server#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.4",
+    "redis": "^0.12.1",
+    "use-import": "^0.1.2"
+  }
+}
